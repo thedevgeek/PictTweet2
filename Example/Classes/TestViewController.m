@@ -12,9 +12,9 @@
 
 - (void) viewDidLoad
 {
-	// Replace the key and secret with your own
+	// Replace the key and secret with your own - I have removed my KEY and SECRET
 
-	_consumer = [[TwitterConsumer alloc] initWithKey: @"2kVfoliaDE0mu4GSxy2krw" secret: @"k66KabjP8LkYZbG9OrIy3aGIGjfB95vvSn8xD6EUj8"];
+	_consumer = [[TwitterConsumer alloc] initWithKey: @"KEY GOES HERE" secret: @"SECRET GOES HERE"];
    
 	// Try to get the token from the keychain. If it does not exist then we will have to show the login dialog
 	// first. In a real application you should store the token in the user's keychain!
